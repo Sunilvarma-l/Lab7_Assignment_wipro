@@ -6,7 +6,7 @@ import java.util.*;
 public class InsuranceService {
     private HashMap<Integer, Employee> empMap = new HashMap<>();
 
-    // Assign insurance scheme based on salary and designation
+
     public String assignScheme(Employee emp) {
         String desig = emp.getDesignation().toLowerCase();
         double sal = emp.getSalary();
